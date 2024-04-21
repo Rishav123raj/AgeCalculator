@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #ffefba, #ffffff, #bae1ff),
+        url('https://www.transparenttextures.com/patterns/noisy-grid.png');
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+
+.card {
+    width: 40%;
+    background:
+        linear-gradient(to bottom right, #ffd3b6, #ffecd2, #ffe8a6, #ffb7b7);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 32px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-size: 20px;
+    margin: 20px 0;
+    display: block;
+}
+
+button {
+    font-size: 20px;
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input {
+    width: calc(100% - 40px);
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+#currentAge {
+    width: 40%;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 20px;
+}
